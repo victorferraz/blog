@@ -3,9 +3,11 @@ import Head from 'next/head'
 import { getPostBySlug, getListUrl } from '../../provider/get-posts';
 import { markDownToHtml } from '../../utils/';
 import { DiscussionEmbed } from 'disqus-react';
+import { PostData } from '../../components/Post/';
+
 
 export default function Post({ post }) {
-  const { title, date, text, slug, img, url } = post;
+  const { title, date, text, slug, img, url, introduction, readTime } = post;
   const router = useRouter()
   return (
     <>
@@ -22,9 +24,15 @@ export default function Post({ post }) {
             <h1>
               {title}
             </h1>
-            <figure>
-              <img src={img} />
-            </figure>
+            <h2 class="sub-text">
+              {introduction}
+            </h2>
+
+            <PostData author="Victor Ferraz" date={date} readTime={readTime} />
+            <div>
+              <img src={img} class="post" />
+            </div>
+
             <div
               dangerouslySetInnerHTML={{ __html: text }}
             />
@@ -52,17 +60,15 @@ function getUrl( slug ) {
   return `${prefix}/blog/${slug}`;
 }
 
-export async function getStaticProps({ params }) {
-  const data = await getPostBySlug(params.slug);
-  const { title, date, img, slug } = data.attributes;
-  const text = await markDownToHtml(data.body);
+export async function getStaticProps({ params: { slug } }) {
+  const { body, attributes } = await getPostBySlug(slug);
+  const { img } = attributes;
+  const text = await markDownToHtml(body);
   const url = getUrl(slug);
   return {
     props: {
       post: {
-        title,
-        date,
-        url,
+        ...attributes,
         slug,
         img: `/${img}`,
         text

@@ -4,30 +4,41 @@ import normalize from './normalize';
 const GlobalStyles = createGlobalStyle`
   ${normalize}
   body {
-    font-family: 'Spartan', sans-serif;
-    color: #333;
-    height: 300px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 33px;
   }
+
 
   .logo{
     font-family: 'Archivo Black', sans-serif;
     font-weight: 600;
-  }
-
-  .logo, h1{
-    font-family: 'Archivo Black', sans-serif;
     font-size: 40px;
   }
 
   h1 {
     padding: 40px 0 00px 0;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+    color: rgba(0, 0, 0, 0.84);
+    font-size: 40px;
+    line-height: 48px;
     font-weight: 300;
   }
 
   h2{
-    font-family: 'Archivo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
-    margin: 30px 0 10px 0;
+    font-weight: 300;
+    margin: 10px 0 10px 0;
+  }
+
+  h2.sub-text{
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 32px;
+    font-size: 24px;
   }
 
   main{
@@ -40,8 +51,6 @@ const GlobalStyles = createGlobalStyle`
   }
 
   p, li, code{
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen, Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-    line-height: 30px;
     font-size: 20px;
     margin-bottom: 20px;
   }
@@ -56,13 +65,16 @@ const GlobalStyles = createGlobalStyle`
     color: red;
     top: 0;
     position: fixed;
-    padding: 0px 0;
+    padding: 16px 0 13px 0;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
     background-color: rgba(250, 204, 61, 1);
+    border-bottom-color:rgb(177, 136, 0);
+    border-bottom-style:solid;
+    border-bottom-width:1px;
   }
 
   header ul{
-    max-width: 680px;
+    max-width: 1192px;
   }
 
   header ul {
@@ -71,7 +83,6 @@ const GlobalStyles = createGlobalStyle`
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    padding: 10px 0;
     justify-content: space-between;
   }
 
@@ -99,7 +110,7 @@ const GlobalStyles = createGlobalStyle`
 
   }
 
-  article img{
+  article img.post{
     padding: 20px 0 40px 0;
     max-width: 100%;
   }

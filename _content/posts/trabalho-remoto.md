@@ -3,7 +3,8 @@ title: O que não te contaram sobre o trabalho remoto
 date: 2019-03-23 07:02
 slug: trabalho-remoto
 img: trabalho-remoto-bruce-hong-556211-unsplash.jpg
-introduction: "1 A primeira coisa que vem na cabeça de quem sonha em ter um trabalho remoto é trabalhar na praia ou onde você quiser, Uma vez eu ia indicar um amigo"
+readTime: 5
+introduction: "A primeira coisa que vem na cabeça de quem sonha em ter um trabalho remoto é trabalhar na praia ou onde você quiser, Uma vez eu ia indicar um amigo"
 ---
 ## Lenda Urbana 
 
