@@ -1,6 +1,7 @@
 import Head from 'next/head';
 
 import { getAllPosts } from '../provider/get-posts';
+import { PostData } from '../components/Post/';
 
 
 const Home = ({posts}) => {
@@ -10,18 +11,20 @@ const Home = ({posts}) => {
         <title>Victor Ferraz</title>
       </Head>
 
-      <main>
         {posts.map((post, index) => (
-          <a href={`/blog/${post.attr.slug}`} key={index}>
-            <h1>
-              {post.attr.title}
-            </h1>
-            <p>
-              {post.attr.introduction}
-            </p>
-          </a>
+          <article>
+            <a href={`/blog/${post.attr.slug}`} key={index}>
+              <h1>
+                {post.attr.title}
+              </h1>
+              <PostData author="Victor Ferraz" date={post.attr.date} readTime={post.attr.readTime} />
+              <img className="post" src={`/${post.attr.img}`} />
+              <p>
+                {post.attr.introduction}
+              </p>
+            </a>
+          </article>
         ))}
-      </main>
     </div>
   )
 }

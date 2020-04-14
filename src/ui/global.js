@@ -3,6 +3,15 @@ import normalize from './normalize';
 
 const GlobalStyles = createGlobalStyle`
   ${normalize}
+
+  @font-face {
+    font-family: 'hk_groteskbold';
+    src: url('/fonts/hkgrotesk-bold-webfont.woff2') format('woff2'),
+         url('/fonts/hkgrotesk-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
   body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -12,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
 
+
   .logo{
     font-family: 'Archivo Black', sans-serif;
     font-weight: 600;
@@ -19,31 +29,25 @@ const GlobalStyles = createGlobalStyle`
   }
 
   h1 {
-    padding: 40px 0 00px 0;
+    font-family: 'hk_groteskbold';
+    padding: 40px 0 10px 0;
     margin: 0;
-    font-family: 'Libre Baskerville', serif;
     color: rgba(0, 0, 0, 0.84);
-    font-size: 40px;
+    font-size: 50px;
     line-height: 48px;
-    font-weight: 300;
+    font-weight: bold;
   }
 
   h2{
-    font-family: 'Roboto', sans-serif;
     font-size: 30px;
     font-weight: 300;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 20px 0;
   }
 
   h2.sub-text{
     color: rgba(0, 0, 0, 0.54);
     line-height: 32px;
     font-size: 24px;
-  }
-
-  main{
-    max-width: 680px;
-    margin: 100px auto 0 auto;
   }
 
   ul {
@@ -67,10 +71,7 @@ const GlobalStyles = createGlobalStyle`
     position: fixed;
     padding: 16px 0 13px 0;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    background-color: rgba(250, 204, 61, 1);
-    border-bottom-color:rgb(177, 136, 0);
-    border-bottom-style:solid;
-    border-bottom-width:1px;
+    background-color: white;
   }
 
   header ul{
@@ -111,7 +112,6 @@ const GlobalStyles = createGlobalStyle`
   }
 
   article img.post{
-    padding: 20px 0 40px 0;
     max-width: 100%;
   }
 `;

@@ -36,7 +36,7 @@ Use o tempo antes do trabalho, para fazer exercício físico e fazer aulas de in
 
 Uma tip boa para me forçar acordar cedo é:  marcar aulas de inglês 6 da manhã porque dessa forma você é forçado a acordar cedo de qualquer jeito.
 
-Música
+## Música
 Não é porque você gosta da música que ela vai te deixar imerso no que você precisa fazer, eu gosto de usar algumas músicas eletronicas sem vocal ou sons de natureza para me concentrar. Vou listar algumas sugestões:
 
 - My Noise(https://mynoise.net/) Esse site é bastante interessante existe uma série de sons que você pode configurar de acordo com o seu gosto para se concentrar ou dormir por exemplo:  "sons de restaurante", "jardim japonês"

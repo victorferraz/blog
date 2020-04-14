@@ -30,7 +30,7 @@ export default function Post({ post }) {
 
             <PostData author="Victor Ferraz" date={date} readTime={readTime} />
             <div>
-              <img src={img} class="post" />
+              <img className="post" src={img} />
             </div>
 
             <div

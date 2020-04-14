@@ -1,4 +1,3 @@
-import { ProfilePic } from '../Shared/';
 
 export default () => (
   <header>
@@ -12,12 +11,12 @@ export default () => (
         <li>
           <ul>
             <li>
-              <a href="/blog">
+              <a href="/about">
                 About
               </a>
             </li>
             <li>
-              <a href="/blog">
+              <a href="/">
                 Blog
               </a>
             </li>
@@ -25,9 +24,6 @@ export default () => (
               <a href="mailto:contato@victorferraz.com.br">
                 Contact
               </a>
-            </li>
-            <li>
-              <ProfilePic src="/victor-ferraz.jpg" />
             </li>
           </ul>
         </li>
