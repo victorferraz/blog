@@ -65,7 +65,7 @@ const GlobalStyles = createGlobalStyle`
     color: #333;
     text-decoration: none;
   }
-  main article a{
+  main article p a{
     text-decoration: underline;
   }
 
