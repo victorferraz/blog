@@ -1,7 +1,9 @@
 
+import { Header } from './ui';
+
 export default () => (
-  <header>
-    <nav>
+  <Header>
+    <nav class="main">
       <ul>
         <li>
           <a href="/" className="logo">
@@ -29,5 +31,5 @@ export default () => (
         </li>
       </ul>
     </nav>
-  </header>
+  </Header>
 );

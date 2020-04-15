@@ -22,12 +22,6 @@ const GlobalStyles = createGlobalStyle`
 
 
 
-  .logo{
-    font-family: 'Archivo Black', sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-  }
-
   h1 {
     font-family: 'hk_groteskbold';
     padding: 40px 0 10px 0;
@@ -63,40 +57,6 @@ const GlobalStyles = createGlobalStyle`
     margin-bottom: 0;
   }
 
-  header{
-    width: 100%;
-    display: block;
-    color: red;
-    top: 0;
-    position: fixed;
-    padding: 16px 0 13px 0;
-    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
-    background-color: white;
-  }
-
-  header ul{
-    max-width: 1192px;
-  }
-
-  header ul {
-    display: flex;
-    list-style: none;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-  }
-
-  header ul > li {
-    margin-right: 30px;
-  }
-
-  header ul li a{
-    color: #000;
-    text-decoration: none;
-    font-size: 15px;
-  }
-
   ul{
     margin-bottom: 20px;
   }
@@ -114,5 +74,36 @@ const GlobalStyles = createGlobalStyle`
   article img.post{
     max-width: 100%;
   }
+
+
+  article ul{
+    list-style: disc;
+  }
+
+  pre{
+    padding: .66001rem 9.5px 9.5px;
+    line-height: 2rem;
+    background: linear-gradient(to bottom,#fff 0,#fff .75rem,#f5f7fa .75rem,#f5f7fa 2.75rem,#fff 2.75rem,#fff 4rem);
+    background-size: 100% 4rem;
+    font-family: monospace,monospace;
+    display: block;
+    margin: 0 0 10px;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  pre code {
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border-radius: 0;
+  }
+
+
 `;
 export default GlobalStyles;

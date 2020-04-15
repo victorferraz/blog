@@ -20,11 +20,11 @@ export default function Post({ post }) {
               {title}
             </title>
           </Head>
-          <article className="mb-32">
+          <article>
             <h1>
               {title}
             </h1>
-            <h2 class="sub-text">
+            <h2 className="sub-text">
               {introduction}
             </h2>
 
@@ -61,6 +61,7 @@ function getUrl( slug ) {
 }
 
 export async function getStaticProps({ params: { slug } }) {
+  console.log(slug);
   const { body, attributes } = await getPostBySlug(slug);
   const { img } = attributes;
   const text = await markDownToHtml(body);

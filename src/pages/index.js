@@ -12,8 +12,8 @@ const Home = ({posts}) => {
       </Head>
 
         {posts.map((post, index) => (
-          <article>
-            <a href={`/blog/${post.attr.slug}`} key={index}>
+          <article key={index}>
+            <a href={`/blog/${post.attr.slug}`} >
               <h1>
                 {post.attr.title}
               </h1>

@@ -2,7 +2,7 @@ const About = () => (
   <>
     <article>
       <h2>Olá!</h2>
-      <p> Sou deenvolvedor com mais de 10 anos de experiência, pós graduado em desenvolvimento web já trabalhou em projetos para o <a href="https://www.mg.gov.br/">Governo de Minas</a>, <a href="https://www.tim.com.br/">Tim</a>, Bloomingdale's, <a href="https://www.macys.com/">Macy's</a> e atualmente trabalha remoto  como Front-End Engineer para <a href="http://tidy.com/">@Tidy</a> uma startup americana. </p>
+      <p> Trabalho com TI  tem 17 anos e comecei a deenvolvedor em 2008, pós graduado em desenvolvimento web já trabalhou em projetos para o <a href="https://www.mg.gov.br/">Governo de Minas</a>, <a href="https://www.tim.com.br/">Tim</a>, Bloomingdale's, <a href="https://www.macys.com/">Macy's</a> e atualmente trabalha remoto  como Front-End Engineer para <a href="http://tidy.com/">@Tidy</a> uma startup americana localizada em Orange County CA. </p>
       <h2> Habilidades </h2>
       <ul>
         <li> React, React Native, Redux </li>
