@@ -65,6 +65,9 @@ const GlobalStyles = createGlobalStyle`
     color: #333;
     text-decoration: none;
   }
+  main article a{
+    text-decoration: underline;
+  }
 
   main a:hover{
     color: #666;
@@ -102,6 +105,10 @@ const GlobalStyles = createGlobalStyle`
     white-space: pre-wrap;
     background-color: transparent;
     border-radius: 0;
+  }
+
+  code{
+    color: red;
   }
 
 

@@ -3,7 +3,7 @@ import { Header } from './ui';
 
 export default () => (
   <Header>
-    <nav class="main">
+    <nav className="main">
       <ul>
         <li>
           <a href="/" className="logo">

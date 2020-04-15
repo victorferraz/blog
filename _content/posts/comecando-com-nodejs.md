@@ -74,8 +74,11 @@ $ const fs = require('fs');
 $ fs.writeFileSync('teste.txt', 'ola', 'utf8');
 $ fs.readFileSync('teste.txt', 'utf8');
 ```
+![alt text](/print-curso-node.png)
 
 O que acabamos de fazer aqui importei o pacote de file system (ele já é nativo do node) e estou utilizando os métodos writeFileSync e readFileSync, para criar um arquivo txt e ler um arquivo txt.
+
+Me conta se deu certo ai :)
 
 <!-- # Minhas primeira api com Node.js
 Atualmente a forma atual de se desenvolver aplicações web usando node é criando API, que é a interface de programação de aplicação, ou seja você separa totalmente o front-end e o back-end
