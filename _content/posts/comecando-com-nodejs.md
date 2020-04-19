@@ -4,7 +4,7 @@ date: 2019-03-23 07:02
 slug: comecando-com-nodejs 
 img: nodejs.jpg
 readTime: 5
-introduction: ""
+introduction: "Segundo Stackoverflow Node.JS é uma  das tecnologias mais utilizadas, nesse artigo vou contar um pouco como começar a trabalhar com o node e qual o motivo da sua popularidade."
 ---
 
 Em abril de 2020 era para eu e o <a href="https://keppelen.dev/">Giovann</a> eramos para ter criado um curso pago de Node.JS e presencial aqui em BH, mas com a quarentena tivemos que cancelar, então eu comecei a pensar em como passar o meu conhecimeno para as pessoas de qualquer forma, vou fazer um artigo e vídeo de como programar em Node.js com o meu conhecimento. A única coisa que eu vou querer em troca é o feedback, se o conteúdo está ruim, bom, avançado ou muito básico, pode falar diretamente comigo que eu vou me comprometer a entregar o conteúdo da melhor forma mesmo sendo de uma forma gratuita.
@@ -77,6 +77,47 @@ $ fs.readFileSync('teste.txt', 'utf8');
 ![alt text](/print-curso-node.png)
 
 O que acabamos de fazer aqui importei o pacote de file system (ele já é nativo do node) e estou utilizando os métodos writeFileSync e readFileSync, para criar um arquivo txt e ler um arquivo txt.
+
+
+Agora vamos criar um projeto, a primeira coisa a se fazer é criar um arquivp package.json, esse arquivo é responsável por gerenciar todas as nossas dependências do projeto.
+
+```sh
+$ mkdir nodejs-curso
+$ cd nodejs-curso
+$ npm init -y
+```
+
+Em seguida vamos instalar express.
+
+```sh
+$ npm install express
+```
+
+Agora vamos criar nossa primeira rota:
+
+```sh
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => { 
+  res.send('olá node!')
+});
+
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+```
+
+No método `get` o parâmetro `req` é um objeto realtivo a requisição, no qual é possível consultar os dados do mesmo e res é um objeto que possui métodos para enviar a resposta para o `client`, nesse caso estamos enviando `olá mundo` como resposta.
+
+Agora abre seu browser http://localhost:3000 e veja que você verá  `olá node` no seu browser :)
+Se você tem alguma dúvida, feedback ou se não funcionou, deixa uma mensagem ou me procure nas redes sociais :)
+
+Obrigado
+
+
+
+
+<iframe src="https://player.vimeo.com/video/409465050" width="100%" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Me conta se deu certo ai :)
 
