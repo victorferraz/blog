@@ -9,36 +9,36 @@ introduction: "A forma simples e fácil de começar a trabalhar com react native
 
 
 ## História
-Em 2015 facebook lança a primeira versão do React Native. Durante uma palestra técnica, Christopher Chedeau explicou que o Facebook já estava usando o React Native em produção.
+Em 2015 facebook lança a primeira versão do React Native, durante uma palestra técnica, Christopher Chedeau explicou que o Facebook já estava usando o React Native em produção.
 
 ## O que é
-React Native é um framework que permite você desenvolver aplicativos nativos usando apenas Javascript. Se você já possui experiência com React, para começar a desenvolver utilizando react native é um pulo, e se você nunca trabalhou com o React não tem problema vou tentar ser o mais didático possível, na minha opinião eu considero a curva de aprendizado bem curta :)
+React Native é um framework que permite você desenvolver aplicativos nativos usando apenas Javascript. Se você já possui experiência com React, para começar a desenvolver utilizando react native é um pulo, e se você nunca trabalhou com o React não tem problema vou tentar ser o mais didático possível. 
 
-A teoria para se trabalhar em React Native e React é bem parecido, a diferença que React Native trabalha com o seus próprios components por exemlo:  `<View>` é como se fosse uma `<div>` que trabalha como se fosse um container, já com componente `<Text>` é usado quando se escreve textos, para se usar esse componente precisa de utilizar um container `<View>`, não é possível ter `<Text>` diretamente sem uma `<View>`.
+A teoria para se trabalhar em React Native e React é bem parecido, a diferença que React Native trabalha com o seus próprios components por exemlo:  `<View>` é como se fosse uma `<div>` que trabalha como se fosse um container, já com componente `<Text>` é usado quando se escreve textos, para se usar esse componente precisa de utilizar um container `<View>`, não é possível ter `<Text>` diretamente sem uma `<View>`. Além desses componentes é preciso lembrar que você está programando para um device e não para a web, a mentalidade precisa ser um pouco diferente.
 
 
 ## Como comecei
-Minha primeira experiência com React Native foi em 2016, eu trabalhei numa aplciaivo de umaa startup Uruguaia. Essa startup trabalhava com desenvolvendo de aplcativos sobre cultivos de plantas medicinais em casa. 
+Minha primeira experiência com React Native foi em 2016, trabalhei numa aplciaivo de umaa startup Uruguaia. Essa startup era um aplcativo sobre cultivos de plantas medicinais em casa. 
 Em 2017, eu escrevi um artigo no <a hre="https://medium.com/@victorferraz/come%C3%A7ando-com-react-native-9e0717ca4587">medium</a>, de como começar com React Native.
 
 Desde de 2016 muita coisa mudou e felizmente foi para melhor, o `expo` cresceu bastante e hoje em dia é a forma mais simples e fácil para começar a trabalhar com react native, além de ter uma grande gama de bibliotecas que é muito simples para começar a usar.
 
 ## Porque Expo?
-Expo é uma plataforma e um framework para React Native. Expo é uma série de ferramentas e serviços construindo em volta da plataforma React Native que te ajuda a dar `build` e `deplou` e uma fácil interação com Ios, Android e Web Apps, com o mesmo código de fonte.
+Expo é uma plataforma e um framework para React Native. Ele possui série de ferramentas e serviços construindo em volta da plataforma do React Native que te ajuda a dar `build` e `deploy` com uma fácil interação utilizando Ios, Android e Web Apps.
 
-Alguns motivos para quem está começando a programar com React Native poderia começar com o expo:
+Alguns motivos para começar a utilizar o Expo se você é um iniciante:
 
  - É a forma mais fácil de se começar a trabalhar com React Native.
- - É possível ter meu aplicativo em web app, utilizando expo.
- - As pessoas precisam de motivação para trabalhar, em poucos minutos você ver seu aplicativo no emulador. O fator motivacional é algo muito importante. A maioria das pessoas desistem de aprender algo ainda quando se está  na parte de configuração e muito raramente você vai precisar de utilizar de algo que não tenha na biblioteca do `expo`.
+ - É possível ter meu aplicativo em web app, utilizando expo, isso mesmo dependendo do que você utilizar você pode ter uma versão web.
+ - As pessoas precisam de motivação para trabalhar, em poucos minutos você poderá ter seu aplicativo no seu celular. O fator motivacional é algo muito importante. A maioria das pessoas desistem de aprender algo ainda quando se está  na parte de configuração.
  - Existe uma grande quantidade de bibliotecas
  - Você pode facilmente `ejetar` sua aplicação da mesma forma do `create-react-app`
- - Tem o `snack` é possível você fazer alguns testes num editor online e ver o que você fez rodando num simulador ou na web (dependendo do suporte do que você está usando não irá funcionar via web).
+ - Tem o `snack` é possível você fazer alguns testes num editor online. (tem a possibilidade de abrir a versão utilizando QR Code)
 
  ## Quando não utilizar expo?
  - Se você já tem anddroid e xcode instalado e configurado.
  - Se você já tem mais experiência com React Native.
- - Se você precisar de algo que a API do expo não dê suporte não aconselho a utilizar o mesmo, caso tenha dúvidas da uma olhada <a href="https://docs.expo.io/versions/v37.0.0/sdk/overview/">aqui</a>. 
+ - Se você precisar de algo que a API do expo não dê suporte, não aconselho a utilizar, caso tenha dúvidas em relação ao suporte da uma olhada <a href="https://docs.expo.io/versions/v37.0.0/sdk/overview/">aqui</a>. 
 
 ## Como saber se o SDK do expo da suporte na plataforma que eu estou trabalhando?
 Ao entrar dentro do SDK que você está trabalhando, por exemplo o <a href="https://docs.expo.io/versions/v37.0.0/sdk/map-view/">maps</a> ele tem suporte para Android e IOS mas não da suporte para Web.
@@ -72,7 +72,7 @@ $ npm start
 ```
 
 Deverá abrir um browser, com oções que você poderá escolher entre simulador e device, no meu caso eu escolhi abrir
-um simulador do IOS.
+um simulador IOS.
 
 
 Agora vamos instalar o maps
@@ -81,6 +81,7 @@ Agora vamos instalar o maps
 ```sh
 $ expo install react-native-maps
 ```
+(utilizar o expo para instalar dependências é a forma recomendada a se utilizar)
 
 Vamos criar o nosso mapa
 
@@ -115,8 +116,8 @@ const styles = StyleSheet.create({
 
 Agora aparecerá um mapa no seu app. 
 
-Vamos fazer outro exemplo mas dessa vez vamos fazer uma requisição da api, usando a api que eu achei do corona virus
-esse api possui os dados bem atualizados.
+Vamos fazer um outro exemplo mas dessa vez vamos fazer uma requisição da api, utilizando a api sobre os dados corona virus
+(esse api é um projeto open source que possui os dados bem atualizados. A api faz um crawler das informações do ministério da saúde)
 
 ```
 import React, { useState, useEffect } from 'react';
@@ -163,4 +164,5 @@ const styles = StyleSheet.create({
   },
 });
 ```
+Pronto agora deverá aparecer os dados dos números de curados no seu device :)
 
