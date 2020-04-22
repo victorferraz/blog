@@ -1,8 +1,8 @@
 ---
 title: Começando com React Native em 2020
-date: 2019-04-19 07:02
+date: 2020-04-19 07:02
 slug: comecando-com-react-native-em-2020 
-img: react-native.jpg
+img: react-native.png
 readTime: 5
 introduction: "A forma simples e fácil de começar a trabalhar com react native"
 ---

@@ -44,12 +44,21 @@ const readDir = (folder) => {
 
 const getAllPosts = async () => {
   const urlList = await getListUrl();
-  return Promise.all(urlList.map(async (item) => {
+  const result =  Promise.all(urlList.map(async (item) => {
     const post = await getPostBySlug(item);
     return  {
       attr: post.attributes
     };
   }));
+  result.then((res) => {
+    return res.sort((a, b) => {
+      const dateA = new Date(a.attr.date);
+      const dateB = new Date(b.attr.date);
+      return dateB - dateA;
+    })
+  });
+  return result;
+
 }
 
 const getListUrl = async () => {
