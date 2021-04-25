@@ -27,11 +27,11 @@ Sempre faço essa pergunta para os amigos que ainda não trabalham remoto e o di
 
 Eu: Por que você não procura um trabalho remoto?
 
-O amigo - Eu não consigo trabalhar em casa 
+O amigo: Eu não consigo trabalhar em casa 
 
-Eu - Isso é porque você tem dificudlade de entregar freelancer?
+Eu: Isso é porque você tem dificudlade de entregar freelancer?
 
-O amigo - Sim
+O amigo: Sim
 
 Eu - Freelancer não é mesma coisa que trabalho remoto, quando é sua principal renda você irá dar um jeito de trabalhar direito. É complicado comparar um plano b com um plano a. Ao se fazer freelancer geralmente você já trabalhou o dia inteiro e está indo trabalhar até tarde da noite. Desta forma é possível que a entrega seja feita com a mesma qualidade pois a sua mente estará cansada.
 

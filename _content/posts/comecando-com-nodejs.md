@@ -4,16 +4,16 @@ date: 2019-03-23 07:02
 slug: comecando-com-nodejs 
 img: nodejs.jpg
 readTime: 5
-introduction: ""
+introduction: "Segundo Stackoverflow Node.JS é uma  das tecnologias mais utilizadas, nesse artigo vou contar um pouco como começar a trabalhar com o node e qual o motivo da sua popularidade."
 ---
 
-Em abril de 2020 era para eu e o <a href="https://keppelen.dev/">Giovann</a> eramos para ter criado um curso pago de Node.JS e presencial aqui em BH, mas com a quarentena tivemos que cancelar, então eu comecei a pensar em como passar o meu conhecimeno para as pessoas de qualquer forma, vou fazer um artigo e vídeo de como programar em Node.js com o meu conhecimento. A única coisa que eu vou querer em troca é o feedback, se o conteúdo está ruim, bom, avançado ou muito básico, pode falar diretamente comigo que eu vou me comprometer a entregar o conteúdo da melhor forma mesmo sendo de uma forma gratuita.
+Em abril de 2020 era para eu e o <a href="https://keppelen.dev/">Giovanni</a> termos criado um curso pago de Node.JS aqui em BH, mas com a quarentena tivemos que cancelar, então eu comecei a pensar em como passar o meu conhecimeno para as pessoas de qualquer forma. Dedici então em fazer um artigo com um vídeo de apoio de como como começar a programar em Node.js. Se possível gostaria de receber feedback, sobre o conteúdo. 😀
 
 # Introdução
-A primeira coisa para quem nunca mexeu  com Node precisa saber é que Node não é uma linguagem ou biblioteca, Node.js é uma plataforma que permite você escrever javascript fora do browser, criar ferramentas de linha de comando, <a href="https://nwjs.io/">aplicativos desktop</a>, programação back-end, <a href="http://johnny-five.io/">criar aplicação para a internet das coisas</a>, etc.
+A primeira coisa para quem nunca mexeu  com Node precisa saber é que Node não é uma linguagem ou biblioteca, Node.js é uma plataforma. Permite você escrever javascript fora do browser, criar ferramentas de linha de comando, <a href="https://nwjs.io/">aplicativos desktop</a>, programação back-end, <a href="http://johnny-five.io/">criar aplicação para a internet das coisas</a>, etc.
 
 Node.js foi construída em cima da V8  com intuito de facilitar o desenvolvimento de aplicações web de uma forma escaável.
-No seu ano de criação em 2009. Na época foi uma revolução muito grande no mundo, fazendo com que simplificasse bastante o trabalho de criaçõa de tarefas assíncronas no servidor.
+No seu ano de criação em 2009, foi uma revolução muito grande no mundo, fazendo com que simplificasse bastante o trabalho de criaçõa de tarefas assíncronas no servidor.
 
 # Vantagens
 - É simples escalar a aplicação e não precisa de tanto recurso comparado com as linguagens tradicionais.
@@ -35,8 +35,7 @@ Criação de api utilizando Node.js é muito simpels e bastante utilizada.
 
 
 # Quem usa?
-Se você for pensar em termos de ferramenta, quase todos os sites modernos hoje em dia utiliza node.js para dar `build` no front-end. 
-Algumas empresas que utiliza node.js no back-end:
+Algumas empresas que utilizam node.js no back-end:
 
 - Netflix
 - Ebay
@@ -65,7 +64,7 @@ $ cinst nodejs.install
 ```
 
 # Hello World
-Abra sua ferramenta de linha de comando e digite `node`, nesse momento é possível usar o node para você brincar um pouco.
+Abra sua ferramenta de linha de comando e digite `node`, nesse momento é possível usar o node para  brincar um pouco.
 E agora digite `1+1`.
 Em seguida vamos brincar mais um pouco:
 
@@ -77,6 +76,47 @@ $ fs.readFileSync('teste.txt', 'utf8');
 ![alt text](/print-curso-node.png)
 
 O que acabamos de fazer aqui importei o pacote de file system (ele já é nativo do node) e estou utilizando os métodos writeFileSync e readFileSync, para criar um arquivo txt e ler um arquivo txt.
+
+
+Agora vamos criar um projeto, a primeira coisa a se fazer é criar um arquivo package.json, esse arquivo é responsável por gerenciar todas as nossas dependências do projeto, para isso iremos utilizar o <a href="https://www.npmjs.com/">npm</a>.
+
+```sh
+$ mkdir nodejs-curso
+$ cd nodejs-curso
+$ npm init -y
+```
+
+Em seguida vamos instalar express.
+
+```sh
+$ npm install express
+```
+
+Agora vamos criar nossa primeira rota:
+
+```sh
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => { 
+  res.send('olá node!')
+});
+
+app.listen(port, () => console.log(`Example app listening at http://localhost:${port}`))
+```
+
+No método `get` o parâmetro `req` é um objeto relativo a requisição, e res é um objeto relativo a resposta, nesse exemplo estamos enviando `olá mundo` como resposta.
+
+Agora abre seu browser http://localhost:3000 e veja que você verá  `olá node` no seu browser :)
+Se você tem alguma dúvida, feedback ou se não funcionou, deixa uma mensagem ou me procure nas redes sociais :)
+
+Obrigado
+
+
+
+
+<iframe src="https://player.vimeo.com/video/409465050" width="100%" height="600" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 
 Me conta se deu certo ai :)
 

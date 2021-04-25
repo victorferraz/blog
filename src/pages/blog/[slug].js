@@ -61,7 +61,6 @@ function getUrl( slug ) {
 }
 
 export async function getStaticProps({ params: { slug } }) {
-  console.log(slug);
   const { body, attributes } = await getPostBySlug(slug);
   const { img } = attributes;
   const text = await markDownToHtml(body);

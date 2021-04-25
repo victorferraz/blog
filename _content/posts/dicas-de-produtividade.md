@@ -39,11 +39,11 @@ Uma tip boa para me forçar acordar cedo é:  marcar aulas de inglês 6 da manh�
 ## Música
 Não é porque você gosta da música que ela vai te deixar imerso no que você precisa fazer, eu gosto de usar algumas músicas eletronicas sem vocal ou sons de natureza para me concentrar. Vou listar algumas sugestões:
 
-- My Noise(https://mynoise.net/) Esse site é bastante interessante existe uma série de sons que você pode configurar de acordo com o seu gosto para se concentrar ou dormir por exemplo:  "sons de restaurante", "jardim japonês"
+- My Noise (https://mynoise.net/) Esse site é bastante interessante existe uma série de sons que você pode configurar de acordo com o seu gosto para se concentrar ou dormir por exemplo:  "sons de restaurante", "jardim japonês"
 
-- Rainy Mood(https://rainymood.com/) é um site com som de chuva, excelente escolhar para concentrar tomando um café :)
+- Rainy Mood (https://rainymood.com/) é um site com som de chuva, excelente escolhar para concentrar tomando um café :)
 
-- Gosto de ouvir também o Neelix(https://open.spotify.com/artist/5X3rdmEE2Mif6kFQkb2PxB) Dj de house progressivo que me deixa bastante concentrado.
+- Gosto de ouvir também o Neelix (https://open.spotify.com/artist/5X3rdmEE2Mif6kFQkb2PxB) Dj de house progressivo que me deixa bastante concentrado.
 
 #Se prepare Antes de trabalhar
 Faça seu café e enche uma garrafa de água e coloque do lado do seu computador, deixar ambos perto aumenta sua concentração mesmo que você não tome água como deveria, você não interromper seu foco pensando em levantar para beber água.
