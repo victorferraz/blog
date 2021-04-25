@@ -27,13 +27,13 @@ que futuramente isso vai te evitar futuros problemas, eu já fiquei com a coluna
 ## Trabalho remoto é para você?
 Sempre pergunto para os meus amigos que  ainda não trabalham remoto,  o dialogo é sempre o mesmo:
 
-Eu Por queê você não procura um trabalho remoto?
+Eu: Por quê você não procura um trabalho remoto?
 
-O amigo - Ee não consigo trabalhar em casa 
+O amigo: Eu não consigo trabalhar em casa 
 
-Eu - Isso é porque você tem dificudlade de entregar freela?
+Eu: sso é porque você tem dificudlade de entregar freela?
 
-O amigo - Sim
+O amigo: Sim
 
 EU - Freela não é mesma coisa que trabalho remoto, quando é sua principal renda você irá dar um jeito de trabalhar direito, acho complicado você comparar um plano b com um plan a. Ao se fazer freelancer geralmente você já trabalhou o dia inteiro e está indo trabalhar mais um pouco até tarde da noite,  dessa forma é bem possível que você não entregue as coisas da mesma forma, pelo fato que a sua cabeça estará cansada.
 
