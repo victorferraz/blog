@@ -23,7 +23,7 @@ const GlobalStyles = createGlobalStyle`
 
 
   h1 {
-    font-family: 'hk_groteskbold';
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
     padding: 40px 0 10px 0;
     margin: 0;
     color: rgba(0, 0, 0, 0.84);
@@ -34,8 +34,8 @@ const GlobalStyles = createGlobalStyle`
 
   h2{
     font-size: 30px;
-    font-weight: 300;
-    margin: 10px 0 20px 0;
+    font-weight: bold;
+    margin: 30px 0 10px 0;
   }
 
   h2.sub-text{

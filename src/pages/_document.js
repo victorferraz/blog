@@ -41,6 +41,7 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"></link>
+<<<<<<< HEAD
           <script dangerouslySetInnerHTML={{__html: `
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -49,6 +50,14 @@ export default class MyDocument extends Document {
             
             ga('create', 'UA-24324707-1', 'auto');
             ga('send', 'pageview');
+=======
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24324707-1"></script>
+          <script dangerouslySetInnerHTML={{__html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2C95CEMJM7');
+>>>>>>> 489171ea01afaceb3159aff87accda75db651be2
           `}}>
           </script>
         </Head>
