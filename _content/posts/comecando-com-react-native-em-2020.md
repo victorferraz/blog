@@ -35,6 +35,8 @@ Alguns motivos para começar a utilizar o Expo se você é um iniciante:
  - Você pode facilmente `ejetar` sua aplicação da mesma forma do `create-react-app`
  - Tem o `snack` é possível você fazer alguns testes num editor online. (tem a possibilidade de abrir a versão utilizando QR Code)
 
+
+ 
  ## Quando não utilizar expo?
  - Se você já tem anddroid e xcode instalado e configurado.
  - Se você já tem mais experiência com React Native.

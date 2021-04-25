@@ -41,12 +41,12 @@ export default class MyDocument extends Document {
           <link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css?family=Archivo|Archivo+Black&display=swap" rel="stylesheet" />
           <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet"></link>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164007764-1"></script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24324707-1"></script>
           <script dangerouslySetInnerHTML={{__html: `
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'UA-164007764-1');
+            gtag('config', 'G-2C95CEMJM7');
           `}}>
           </script>
         </Head>
