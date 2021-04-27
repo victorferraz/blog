@@ -1,7 +1,7 @@
 
 import { Header } from './ui';
 
-export default () => (
+const HeaderContainer = () => (
   <Header>
     <nav className="main">
       <ul>
@@ -33,3 +33,5 @@ export default () => (
     </nav>
   </Header>
 );
+
+export default HeaderContainer;
