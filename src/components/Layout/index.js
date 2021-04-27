@@ -1,4 +1,5 @@
 import Header from '../Header';
+import Footer from '../Footer';
 import { LayoutMain } from './ui';
 
 const Layout = ({children}) => (
@@ -9,6 +10,7 @@ const Layout = ({children}) => (
         {children}
       </section>
     </LayoutMain>
+    <Footer />
   </>
 );
 

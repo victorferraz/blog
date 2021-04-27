@@ -28,7 +28,7 @@ const GlobalStyles = createGlobalStyle`
     margin: 0;
     color: rgba(0, 0, 0, 0.84);
     font-size: 50px;
-    line-height: 48px;
+    line-height: 60px;
     font-weight: bold;
   }
 
