@@ -111,6 +111,9 @@ const GlobalStyles = createGlobalStyle`
     color: red;
   }
 
+  .post-image{
+    margin: 0 auto;
+  }
 
 `;
 export default GlobalStyles;

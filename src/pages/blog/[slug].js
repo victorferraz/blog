@@ -60,7 +60,9 @@ function getUrl( slug ) {
   return `${prefix}/blog/${slug}`;
 }
 
-export async function getStaticProps({ params: { slug } }) {
+export async function getStaticProps(data) {
+  console.log(data);
+  const { params: { slug } } = data;
   const { body, attributes } = await getPostBySlug(slug);
   const { img } = attributes;
   const text = await markDownToHtml(body);

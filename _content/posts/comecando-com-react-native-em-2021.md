@@ -1,7 +1,7 @@
 ---
-title: Começando com React Native em 2020
-date: 2020-04-19 07:02
-slug: comecando-com-react-native-em-2020 
+title: Começando com React Native em 2021
+date: 2020-04-27 07:02
+slug: comecando-com-react-native-em-2021
 img: react-native.png
 readTime: 5
 introduction: "A forma simples e fácil de começar a trabalhar com react native"
@@ -79,14 +79,13 @@ um simulador IOS.
 
 Agora vamos instalar o maps
 
-
 ```sh
 $ expo install react-native-maps
 ```
 (utilizar o expo para instalar dependências é a forma recomendada a se utilizar)
 
 Vamos criar o nosso primeiro exemplo, para isso edite o arquivo gerado App.js 
-Nesse exemplo é referente a um mapa
+e coloque o código abaixo
 
 ```js
 import React from 'react';
@@ -117,7 +116,7 @@ const styles = StyleSheet.create({
 });
 ```
 
-Agora aparecerá um mapa no seu app. 
+Escolha para abrir no simulador do ios ou do andoir e  aparecerá um mapa no seu app. 
 
 Vamos fazer um outro exemplo mas dessa vez vamos fazer uma requisição da api, utilizando a api sobre os dados corona virus (esse api é um projeto open source que possui os dados bem atualizados.
  A api faz um crawler das informações do ministério da saúde)
@@ -168,7 +167,13 @@ const styles = StyleSheet.create({
 });
 ```
 <br>
-Pronto agora deverá aparecer os dados dos números de curados no seu device :)
-<br>
+<p>Pronto agora deverá aparecer os dados dos números de curados no seu device :)</p>
 
-<img src="/simulador-casos-curados.png">
+Para quem já trabalha com react a mudança parece ser bem pequena correto?
+
+<p>
+  <img src="/simulador-casos-curados.png" class="post-image" width="300">
+</p>
+
+Deixa ai seu comentário e dê sua opinião :)
+Recebo diversas mensagens por dia e tenho o prazer em ajudar as pessoas, se tiver alguma dúvida me manda uma mensagem que eu terei o prazer em te ajudar.
