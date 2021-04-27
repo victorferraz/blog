@@ -85,9 +85,10 @@ $ expo install react-native-maps
 ```
 (utilizar o expo para instalar dependências é a forma recomendada a se utilizar)
 
-Vamos criar o nosso mapa
+Vamos criar o nosso primeiro exemplo, para isso edite o arquivo gerado App.js 
+Nesse exemplo é referente a um mapa
 
-```sh
+```js
 import React from 'react';
 import MapView from 'react-native-maps';
 import { StyleSheet, Text, View, Dimensions } from 'react-native';
@@ -118,10 +119,10 @@ const styles = StyleSheet.create({
 
 Agora aparecerá um mapa no seu app. 
 
-Vamos fazer um outro exemplo mas dessa vez vamos fazer uma requisição da api, utilizando a api sobre os dados corona virus
-(esse api é um projeto open source que possui os dados bem atualizados. A api faz um crawler das informações do ministério da saúde)
+Vamos fazer um outro exemplo mas dessa vez vamos fazer uma requisição da api, utilizando a api sobre os dados corona virus (esse api é um projeto open source que possui os dados bem atualizados.
+ A api faz um crawler das informações do ministério da saúde)
 
-```
+```js
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, Dimensions, Image } from 'react-native';
 
@@ -166,5 +167,8 @@ const styles = StyleSheet.create({
   },
 });
 ```
+<br>
 Pronto agora deverá aparecer os dados dos números de curados no seu device :)
+<br>
 
+<img src="/simulador-casos-curados.png">
