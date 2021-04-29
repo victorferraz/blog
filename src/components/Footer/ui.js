@@ -6,7 +6,7 @@ export const Footer = styled.footer`
 `;
 
 export const MiddleFooter = styled.div`
-  width: 900px;
+  max-width: 900px;
   padding: 20px;
   margin: 0 auto;
   text-align: center;
