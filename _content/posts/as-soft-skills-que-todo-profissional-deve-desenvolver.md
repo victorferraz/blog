@@ -21,28 +21,28 @@ Já com as mudanças comportamentais – onde nascem as soft skills – as coisa
 
 Aqui vão alguns bons exemplos de soft skill:
 
-##Empatia 
+## Empatia 
 
 Essa é a habilidade de tentar se colocar no lugar do outro, identificar e compreender
 como está o próximo sem colocar seu juízo de valor na frente da situação. Por exemplo, pensar um pouco no colega antes de tomar alguma atitude ou ver se a pessoa com quem você está trabalhando está bem, ou se algo em sua vida pessoal está afetando seu desenvolvimento no trabalho.
 
 Partir do pressuposto de que todos nós travamos nossas batalhas diárias e queremos respeito por elas torna a empatia mais fácil de ser compreendida e colocada em prática. 
 
-##Pensamento Criativo 
+## Pensamento Criativo 
 
 Eu acho muito importante poder resolver uma turbulência da melhor maneira possível. Isso demanda a habilidade de saber imaginar saídas afora as convencionais – o termo gourmet para isso é “pensar fora da caixa”. 
 
-##Resiliência
+## Resiliência
 
 Resiliência é a persistência consciente. É saber que você não está sendo teimoso/a, nem afoito/a, quando surge um obstáculo, mas que acredita no potencial de um projeto e vai terminá-lo não importa o que ocorra: falta de tempo, pessoas dizendo que você não deveria, ter levado um spoiler da sua série preferida, etc.
 
 Ser resiliente é estar sempre preparado para fazer o que tem que ser feito, mesmo que o mundo esteja contra o que você quer. 
 
-##Liderança
+## Liderança
 
 Mesmo que você não queira ter nenhum cargo de liderança, é possível pensar como líder da mesma forma. E ser líder é diferente de ser “chefe”. É tratar a equipe/produto como se fosse responsável por isso, estar disposto a levantar o ânimo das pessoas envolvidas no projeto e se responsabilizar pelos maus resultados da equipe, ao invés de jogar a culpa nos outros.  
 
-##Network
+## Network
 
 Essa é uma soft skill para a vida pessoal: não adianta nada ser o melhor no que faz se ninguém sabe que você existe. 
 
